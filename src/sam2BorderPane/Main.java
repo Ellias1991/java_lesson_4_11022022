@@ -1,4 +1,4 @@
-package sam1;
+package sam2BorderPane;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

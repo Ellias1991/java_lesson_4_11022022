@@ -7,7 +7,7 @@
 
     <Button text="Кнопка1" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#btnClick"/>
     <Button text="Кнопка2" GridPane.rowIndex="0" GridPane.columnIndex="1" onAction="#sendMsg"/>
-    <TextField fx:id="textField" promptText="input text" GridPane.rowIndex="1" GridPane.columnIndex="0" onAction="#sendMsg"/>
+    <TextField fx:id="textField" promptText="Введите текст сообщения" GridPane.rowIndex="1" GridPane.columnIndex="0" onAction="#sendMsg"/>
 <TextArea fx:id="textArea" GridPane.rowIndex="1" GridPane.columnIndex="1" editable="true"/>
 
 
