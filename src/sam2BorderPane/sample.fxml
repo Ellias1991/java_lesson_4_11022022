@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Point3D?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
 
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 <BorderPane xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sam2BorderPane.Controller">
 
 
@@ -17,8 +21,14 @@
 
     </center>
     <bottom>
-        <TextField fx:id="textField" onAction="#sendMsg" promptText="Введите текст сообщения" />
-        <Button onAction="#sendMsg" text="Send" BorderPane.alignment="BOTTOM_RIGHT" />
+<HBox>
+    <TextField fx:id="textField" onAction="#sendMsg" alignment="BOTTOM_LEFT" HBox.hgrow="ALWAYS" promptText="Type your message here"/>
+
+    <Button onAction="#sendMsg" alignment="BOTTOM_RIGHT" text="Send"  />
+
+
+</HBox>
     </bottom>
+
 
 </BorderPane>
